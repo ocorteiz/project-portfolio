@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* 
+
+TABELA DE DEVICE BREAKPOINT:
+
+CELULAR: 360Px ATÉ 768Px
+TABLETS: 768Px ATÉ 992Px
+DESKTOPS: 992Px ATÉ 1920Px
+TV: 1920Px ACIMA
+
+RESOLUÇÃO DO WIDTH
+
+*/
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+    br {
+        display: none;
+    }
+
+    section#logos {
+        margin-bottom: 0px;
+    }
+    
+    section#logos img {
+        margin: 0px 50px 20px 50px;
+    }
+
+    section#spense img {
+        width: 100%;
+    }
+
+    section#yelcamp img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    
+
+    header {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+
+    header a {
+        display:block;
+        float: right;
+    }
+
+    header > a > input {
+        margin-top: 10px;
+        border: none;
+        background-color: rgb(255, 255, 72);
+        padding: 10px;
+    }
+
+    header img {
+        display: none;
+    }
+
+    section {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    
+    br {
+        display: none;
+    }
+
+    section#logos img {
+        margin: 10px 50px 0px 50px;
+    }
+
+    section#spense {
+        display: inline-block;
+        width: 44%;
+        margin: 15px 0px 15px 60px;
+    }
+
+    section#yelcamp {
+        display: inline-block;
+        width: 44%;
+        margin: 15px 0px 15px 60px;
+    }
+
+}
